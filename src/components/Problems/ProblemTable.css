@@ -1,0 +1,34 @@
+.problem-table-container {
+    background: #0f172a; /* Rich dark layout container backing */
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.problem-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.problem-table th {
+    background: rgba(30, 41, 59, 0.5);
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.problem-table td {
+    padding: 16px 24px;
+    vertical-align: middle;
+}
+
+/* Zebra striping for modern visual rhythm */
+.problem-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.01);
+}
